@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <section class="hero-container h-auto lg:h-[800px]">
+        <div class="center-image flex pt-[69px] mb-[69px]">
+            <img src="/images/zuri-logo-full.svg" alt="zurilogo " class="zuri-logo block pt-[50px] m-auto mb-[20px] align-middle lg:pt-0 lg:mb-0">
+        </div>
+        <div class="hero p-[10px] max-w-[700px] my-0 mx-auto max-width-[700px] text-center">
+            <h2 class="text-[28px] leading-[34px] text-center lg:text-[32px] lg:leading-[48px] lg:font-[800] lg:text-[#514949] mb-[36px]">
+                Learn, Build, Grow.
+            </h2>
+            <p class="text-[16px] leading-[24px] text-[#514949] opacity-90">
+                Unlock your Brilliance with our hands-on 
+                <a class="atag" href="https://training.zuri.team">beginner</a> and <a class="atag" href="https://internship.zuri.team">expert training</a>. Zuri Team has been immensely successful in creating a global network of a highly adept intelligent workforce that can help your company
+                achieve their mission-critical <a class="atag" href="https://talent.zuri.team">projects and goals</a>
+            </p>
+            <div class="btn-div mb-[50px] mt-[92px] lg:mb-0">
+                <a class="atag" href="/new.html">
+                    <button class="my-btn block lg:inline-block m-auto justify-center bg-[#E7332B] text-[#fff] lg:mr-[24px] py-[11px] px-[28px] border border-[#E7332B] hover:bg-[#fff] hover:text-[#E7332B]">
+                        I'm new to the Industry
+                    </button>
+                </a>
+                <br class="line-break block lg:hidden">
+                <a class="" href="/experience.html">
+                    <button class="my-btn block lg:inline-block m-auto justify-center bg-[#fff] text-[#E7332B] py-[11px] px-[28px] border border-[#E7332B] hover:text-[#fff] hover:bg-[#E7332B]">
+                        I need industry experience
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="programs bg-[#fff] overflow-hidden">
+        <div class="container-fluid my-0 mx-auto pt-0 max-w-[1440px] text-center w-full px-[15px]">
+            <h3 class="heading text-[14px] leading-[24px] text-[#E7332B] mt-[60px] lg:mt-[141px] mb-[0.5rem] font-[500]">
+                BY ZURI Team
+            </h3>
+            <p class="slogan text-[24px] leading-[40px] text-center text-[#514949] mt-[8px] mb-[64px]">
+                We cater for every level of <br> expertise and needs in the industry.
+            </p>
+            <div class="my-container my-0 mx-auto text-center max-w-[1240px]">
+                <div class="row flex flex-col lg:flex-row mx-[-15px]">
+                    <div class="program-card relative w-full px-[15px] z-10">
+                        <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/left_bvmv7q.png" alt="link-image" class="cloud-image block mb-[48px] w-[90%] absolute left-[-120px] top-[-75px] hidden lg:block align-middle z-[-1]">
+                        <div class="card w-full bg-[#FFFAFA] text-left mx-auto my-[1.5rem] pt-[61px] pr-[47px] pb-[82px] pl-[36px]">
+                            <img src="/images/zuri-training-img.svg" alt="zuri-training-logo" class="zuri-training-logo mb-[48px] align-middle">
+                            <p class="card-text text-[16px] leading-[24px] text-[#514949] opacity-90 mb-[1rem] mt-0">
+                                We understand a complete beginner cannot become a professional after a few weeks, the aim here is to get you familiar enough with each the tools such that you’ll be able to continue learning on your own with minimal support.
+                            </p>
+                            <h3 class="card-title text-[1.75rem] mb-[0.5rem] font-[500] leading-[1.2] mt-0">
+                                <a class="card-link" href="https://internship.zuri.team/">I want to be trained &gt;</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="program-card relative w-full px-[15px]">
+                        <div class="card w-full bg-[#FFFAFA] text-left mx-auto my-[1.5rem] pt-[61px] pr-[47px] pb-[82px] pl-[36px]">
+                            <img src="/images/zuri-training-img.svg" alt="zuri-training-logo" class="zuri-training-logo mb-[48px] align-middle">
+                            <p class="card-text text-[16px] leading-[24px] text-[#514949] opacity-90 mb-[2.5rem] mt-0">
+                                We place you in a work simulation. We give you tasks every week, the tasks ranges from easy to hard as you progress from stage to stage, making it to the final stage means you are ready for actual work.  
+                            </p>
+                            <h3 class="card-title text-[1.75rem] mb-[0.5rem] font-[500] leading-[1.2] mt-0">
+                                <a class="card-link" href="https://internship.zuri.team/">I want to join the internship &gt;</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="program-card relative w-full px-[15px] z-10">
+                        <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/left_bvmv7q.png" alt="link-image" class="cloud-image block mb-[48px] w-[90%] absolute right-[-120px] top-[-75px] hidden lg:block align-middle z-[-1]">
+                        <div class="card w-full bg-[#FFFAFA] text-left mx-auto my-[1.5rem] pt-[61px] pr-[47px] pb-[82px] pl-[36px]">
+                            <img src="/images/zuri-training-img.svg" alt="zuri-training-logo" class="zuri-training-logo mb-[48px] align-middle">
+                            <p class="card-text text-[16px] leading-[24px] text-[#514949] opacity-90 mb-[1rem] mt-0">
+                                Keeping pace
+                                with projects and being on the look out for the extremely talented
+                                individuals has become ever more challenging. Here is where Zuri
+                                Team comes into play to bring the best suited talent for your
+                                company
+                            </p>
+                            <h3 class="card-title text-[1.75rem] mb-[0.5rem] font-[500] leading-[1.2] mt-0">
+                                <a class="card-link" href="https://internship.zuri.team/">I am looking for talent &gt;</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer mt-[215px] max-w-[1240px] mx-auto">
+        <div class="footer-flex flex flex-col justify-center items-center lg:flex-row lg:justify-between  lg:items-start lg:mb-[56px] lg:p-[20px] text-center lg:text-left">
+            <div class="f-1">
+                <img src="/images/zuri-logo-full.svg" alt="zuri-logo" class="w-[150px] mb-[15px] align-middle lg:w-[110px]">
+            </div>
+            <div class="f-2">
+                <h3 class="h3 text-[24px] mt-[20px] lg:text-[16px] font-bold leading-[24px] text-[#514949] mb-[0.5rem] lg:mt-0">
+                    Links
+                </h3>
+                <a class="atag" href="https://flutterwave.com/store/zuriteam">
+                    <p class="mt-0 mb-[1rem]">Store</p>
+                </a>
+                <a class="atag" href="https://blog.zuri.team">
+                    <p class="mt-0 mb-[1rem]">Blog</p>
+                </a>
+            </div>
+            <div class="f-3">
+                <h3 class="h3 text-[24px] mt-[20px] lg:text-[16px] font-bold leading-[24px] text-[#514949] mb-[0.5rem] lg:mt-0">
+                    Contact
+                </h3>
+                <p class="p text-[14px] leading-[20px] text-[#514949] mb-[1rem] mt-0 opacity-90">
+                    8 Jubliee-CMD Road, Magodo, <br>Lagos State
+                </p>
+                <p class="p text-[14px] leading-[20px] text-[#514949] mb-[1rem] mt-0 opacity-90">
+                    <a class="atag" href="mailto:hello@zuri.com">
+                        hello@zuri.team
+                    </a>
+                </p>
+            </div>
+            <div class="f-4">
+                <h3 class="h3 text-[24px] mt-[20px] lg:text-[16px] font-bold leading-[24px] text-[#514949] mb-[0.5rem] lg:mt-0">
+                    Follow Us
+                </h3>
+                <div class="contact-icons">
+                    <a class="icon-tag" target="_blank" href="https://web.facebook.com/thezuriteam"> 
+                        <img alt="" src="images/fb.png" class="w-[18px] mr-[5px] align-middle"> 
+                    </a>
+                    <a class="icon-tag" target="_blank" href="https://web.facebook.com/thezuriteam"> 
+                        <img alt="" src="images/twitter.png" class="w-[18px] mr-[5px] align-middle"> 
+                    </a>
+                    <a class="icon-tag" target="_blank" href="https://web.facebook.com/thezuriteam"> 
+                        <img alt="" src="images/IG.png" class="w-[18px] mr-[5px] align-middle"> 
+                    </a>
+                    <a class="icon-tag" target="_blank" href="https://web.facebook.com/thezuriteam"> 
+                        <img alt="" src="images/in.png" class="w-[18px] mr-[5px] align-middle"> 
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hr-line">
+            <hr class="hr m-[1rem] opacity-[0.2] border-[0.7px] border-[#514949]">
+        </div>
+        <div class="copywrite text-center mx-auto">
+            <p class="copy text-[16px] leading-[24px] font-bold mt-[32px] text-[#514949] pb-[97px] mb-[1rem]">
+                 © 2020 ZURI TEAM 
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

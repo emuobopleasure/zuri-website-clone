@@ -20,11 +20,6 @@ body {
     background-repeat: no-repeat;
 }
 
-/* p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-} */
-
 .atag {
     color: #E7332B;
     text-decoration: none;
@@ -61,4 +56,38 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+}
+
+.background1 {
+    background: linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0))
+}
+
+.boxM {
+    border-radius: 18px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    padding: 58px 48px 63px 40px;
+}
+
+.boxM:hover {
+    transition: transform .3s ease;
+    
+}
+
+.boxL {
+    border-radius: 18px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    padding: 58px 48px 93px 50px;
+    transition: transform .3s ease;
+}
+
+.boxL:hover {
+    transition: transform .3s ease;
+}
+
+.curveImage {
+    display: flex;
+    float: right;
+    margin-right: -49px;
+    margin-top: -58px;
+    width: 42%;
 }

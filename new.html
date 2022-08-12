@@ -18,7 +18,7 @@
 </head>
 <body>
     <div class="content-wrapper">
-      <header class="header py-[15px] flex  flex-col w-full fixed z-10 top-0 left-auto right-0">
+      <header class="header py-[15px] flex  flex-col w-full fixed z-10 top-0 left-auto right-0 bg-[#fffdf5]">
         <div class="nav-container py-[5px] w-[92%] m-auto">
             <div class="header-content flex items-center justify-between">
                 <a href="" class="logo-link">
@@ -52,28 +52,94 @@
         </div>
       </header>  
       <div class="root1">
-        <section class="hero-section pt-[100px] w-[90%] lg:pt-[200px] m-auto max-w-[1440px]">
-            <div class="section-wrapper flex flex-col lg:flex-row items-center mt-[-16px] w-full">
+        <section class="hero-section pt-[100px] lg:pt-[200px] w-[90%] m-auto max-w-[1440px] flex items-center">
+            <div class="mobile-section-wrapper flex flex-col xl:hidden items-center mt-[-16px] w-full relative">
                 <div class="image-div pt-[16px] pl-[16px]">
                     <img src="/images/lady1.jpg" alt="lady1" class="lady1 w-full m-auto">
                 </div>
                 <div class="hero-text pt-[16px] pl-[16px]">
-                    <p class="text mt-[-33px] lg:mt-[-75px] leading-[0.00938em] text-[#e7332b] text-[18px] font-400 leading-[130%] text-center">
+                    <p class="text mt-[-33px] lg:mt-[-75px] leading-[0.00938em] text-[#e7332b] text-[18px] font-[400] leading-[130%] text-center">
                         And now your search has ended...
                     </p>
-                    <p class="text pt-[10px] m-0 leading-[0.00938em] text-[#1b1a20] text-[28px] md:text-[37px] lg:text-[49px] 2xl:text-[55px] font-700 leading-[110%] text-center">
+                    <p class="text pt-[10px] m-0 leading-[0.00938em] text-[#1b1a20] text-[28px] md:text-[37px] lg:text-[49px] 2xl:text-[55px] font-[700] leading-[110%] text-center">
                         Gain knowledge to help you scale through the tech industry for free.
                     </p>
                     <div class="wire flex justify-end ml-[-20px] mb-[28px] lg:mr-[32px] xl:mr-[100px] 2xl:mr-[40px]">
                         <img src="/images/line.svg" alt="wire" class="wire w-[33%]">
                     </div>
+                    <p class="text tracking-[0.00938em] text-[#1b1a20] text-[16px] w-full 2xl:text-[18px] 2xl:w-[68%] text-center pb-[40px] leading-[130%] m-auto">
+                        A basic introduction to software development and product design aimed at complete beginners, which anyone can join
+                    </p>
+                    <div class="enrol-now flex justify-center">
+                        <a href="" class="enroll-link inline-flex items-center justify-center relative m-0 align-middle no-underline tracking-[0.02857em] bg-[#e7332b] rounded-[71px] py-[10px] px-[20px] text-[#fff] text-[18px] font-[400] leading-[24px]">
+                            Enroll Now
+                        </a>
+                    </div>
+                    <div class="wire6 flex justify-end m-auto w-[54%] md:w-[64%] lg:w-[50%] xl:w-[40%]">
+                        <img src="./images/section1wire.svg" alt="section1wire" class="section1wire w-[35%] md:w-[35%] lg:w-[22%]">
+                    </div>
+                    <img src="./images/maleface.svg" alt="maleface" class="maleface hidden md:block absolute ml-[33px] mt-[-141px] max-w-[1440px] w-[54px]">
                 </div>
+                <div class="line flex items-center"></div>
             </div>
             <!-- desktop grid -->
-            <div class="section-wrapper flex flex-col lg:flex-row mt-[-16px] w-full">
-                
+            <div class="desktop-section-wrapper hidden xl:flex items-center mt-[-16px] ml-[-16px] w-full max-w-[1440px] m-auto">
+                <div class="left-hero flex items-center pl-[16px] pt-[16px] basis-[25%] max-w-[25%]">
+                    <div class="w-full">
+                        <img src="./images/lady1.jpg" alt="lady1" class="lady1 w-[125%]">
+                    </div>
+                </div>
+                <div class="middle-hero pl-[16px] pt-[16px] basis-[50%] max-w-[50%]">
+                    <p class="text1 m-0 text-[#e7332b] text-[18px] leading-[130%] text-center tracking-[0.00938em]">
+                        And now your search has ended...
+                    </p>
+                    <p class="text2 m-0 tracking-[0.00938em] text-[49px] 2xl:text-[55px] text-[#1b1a20] font-bold leading-[110%] pt-[10px] text-center">
+                        Gain knowledge to help you scale through the tech industry for free.
+                    </p>
+                    <div class="wire flex justify-end ml-[-20px] mb-[28px] mr-[100px] 2xl:mr-[40px]">
+                        <img src="./images/line.svg" alt="line" class="line w-[33%]">
+                    </div>
+                    <p class="text3 tracking-[0.00938em] text-[18px] w-[68%] text-[#1b1a20] font-[400] leading-[130%] m-auto pb-[40px] text-center">
+                        A basic introduction to software development and product design aimed at complete beginners, which anyone can join
+                    </p>
+                    <div class="enroll-now flex justify-center">
+                        <a href="" class="enroll-link inline-flex items-center justify-center relative m-0 align-middle no-underline tracking-[0.02857em] bg-[#e7332b] rounded-[71px] py-[10px] px-[32px] text-[#fff] text-[18px] font-[400] leading-[24px]">
+                            Enroll Now
+                        </a>
+                    </div>
+                    <div class="wire6 flex justify-end m-auto w-[54%] xl:w-[40%]">
+                        <img src="./images/section1wire.svg" alt="section1wire" class="section1wire w-[35%]">
+                    </div>
+                    <img src="./images/maleface.svg" alt="maleface.svg" class="maleface.svg absolute ml-[33px] mt-[-141px] max-w-[1440px] w-[54px]">
+                </div>
+                <div class="right-hero flex items-center pl-[16px] pt-[16px] basis-[25%] max-w-[25%]">
+                    <div>
+                        <img src="./images/male1.jpg" alt="male1" class="male1 ml-[-26px] w-[110%]">
+                    </div>
+                </div>
             </div>
         </section>
+      </div>
+      <div class="root2 max-w-[1400px] pt-[30px] w-[90%] m-auto">
+        <div class="hr-line hidden lg:block m-0 border border-[rgba(0,_0,_0,_0.12)]"></div>
+        <div class="root2-container flex flex-col xl:flex-row mt-[-16px] ml-[-16px]">
+            <div class="div1 flex items-center pl-[16px] pt-[16px] lg:basis-[33.33%] lg:max-w-[33.33%]">
+                <p class="div1-text text-[#1b1a20] text-[20px] font-[600] leading-[130%] pt-[30px] text-center uppercase font-[Graphik] tracking-[0.00938em] md:text-[24px] xl:text-left xl:font-[600]">
+                    Ingressive for Good was launched in July 2020 with No dollar in donation...
+                </p>
+            </div>
+            <div class="div2 pl-[16px] pt-[16px] lg:basis-[33.33%] lg:max-w-[33.33%]">
+                <div class="div2-section flex justify-center">
+                    <img src="./images/ingresive.jpg" alt="ingresive" class="ingresive w-[52%] md:w-[42%] lg:w-[30%] xl:w-[76%] 2xl:w-[55%]">
+                </div>
+            </div>
+            <div class="div3 pl-[16px] pt-[16px] lg:basis-[33.33%] lg:max-w-[33.33%] flex items-center">
+                <p class="div3-text text-[#1b1a20] font-[Graphik] text-[18px] font-[400] leading-[130%] pb-[40px] pt-[30px] text-center w-full xl:text-[24px] xl:leading-[31.2px] tracking-[0.22512px] xl:text-right">
+                    to help increase the earning power of African youths by providing them with tech skills, community, tools, resources, and jobs... 
+                </p>
+            </div>
+        </div>
+        <div class="hr-line hidden lg:block m-0 border border-[rgba(0,_0,_0,_0.12)]"></div>
       </div>
     </div>
 </body>

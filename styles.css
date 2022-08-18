@@ -104,3 +104,7 @@ body {
     transform: rotate(180deg);
     transition-duration: 0.3s;
 }
+
+.sect-8 {
+    box-shadow: 0 31px 60px rgba(231,51,43,.2);
+}

@@ -112,3 +112,28 @@ body {
 .aaa {
     box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
 }
+
+.navv-links {
+    margin-right: 2rem;
+    letter-spacing: .01em;
+    min-width: 64px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    color: #161617;
+    font-family: 'Graphik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.navv-links:active {
+    border-bottom: 3px solid #e7332b;
+}
+.navv-links:hover {
+    border-bottom: 3px solid #e7332b;
+}
+
+.talent-btns {
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px
+}

@@ -143,3 +143,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.text-boxx {
+    box-shadow: 0 8px 30px hsla(0,0%,48%,.16)
+}
+
+.text-boxx:active {
+    transition: transform .3s ease;
+    transform: translateY(-15px);
+    transition-delay: 0s, 3s;
+}
+
